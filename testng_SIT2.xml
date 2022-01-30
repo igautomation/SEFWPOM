@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Project_Inspection" parallel = "classes" thread-count = "2">
+	<test verbose="2" preserve-order="true" name="INS_Batch_Execution">
+		<parameter name="Test_Data_Path" value="D:\\Users\\muhammadghouse.imran\\Automation\\Projects\\Project_Inspection\\src\\main\\resources\\Inspection_SIT2.xlsx" />
+		<parameter name="Environment" value="SIT2" />
+		<classes>
+			<class name="utilities.Reports"/>
+		    <class name="test_inspection.TC_DT_001"/>
+			<!--<class name="test_inspection.TC_Siebel_001"/>-->
+		</classes>
+	</test>
+</suite>

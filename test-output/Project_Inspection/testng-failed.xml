@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Project_Inspection]" guice-stage="DEVELOPMENT">
+  <test name="INS_Batch_Execution(failed)">
+    <parameter name="Test_Data_Path" value="D:\\Users\\muhammadghouse.imran\\Automation\\Projects\\Project_Inspection\\src\\main\\resources\\Inspection_SIT2.xlsx"/>
+    <parameter name="Environment" value="SIT2"/>
+    <classes>
+      <class name="test_inspection.TC_DT_001">
+        <methods>
+          <include name="TC_DT_01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_inspection.TC_DT_001 -->
+    </classes>
+  </test> <!-- INS_Batch_Execution(failed) -->
+</suite> <!-- Failed suite [Project_Inspection] -->
